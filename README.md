@@ -21,6 +21,6 @@ To access this project on your local files, you can clone it using these steps
 6. Bootstrap
 7. jQuery
 ### Live Site
-View [live](https://ammoh-moringa.github.io/Delani--studio/)
+View [live](https://ammoh-moringa.github.io/Quiz-board/)
 ### Licence
 This project is under the  [MIT](license) licence.
