@@ -13,4 +13,7 @@ $(document).ready(function () {
     $("#showScore").show();
     $("#showTest").hide();
   });
+  $("#reset").click(function() {
+    location.reload();
+  })
 });
