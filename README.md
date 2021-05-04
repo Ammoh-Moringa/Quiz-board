@@ -1,8 +1,7 @@
-# My Portfolio
 ## Author
 AMOS KIPROTICH
 ## Description
-Delani studio is a website for programmers that has an about us section, what to do, portfolio and even the contact section.
+Quiz board is a simple application that has javascript questions, on submition you are able to know your score in percentage.
 ### Prerequisites
 You need to have git installed
 You can install it with the following command in your terminal
