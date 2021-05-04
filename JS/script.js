@@ -1,5 +1,5 @@
-$(document).ready(function() {
-  $("form#query").submit(function(event) {
+$(document).ready(function () {
+  $("form#query").submit(function (event) {
 
     event.preventDefault();
     var q1 = $("input:radio[name=q1]:checked").val();
@@ -10,11 +10,7 @@ $(document).ready(function() {
     var result = parseInt(q1) + parseInt(q2) +
       parseInt(q3) + parseInt(q4) + parseInt(q5);
     $("#result").text("You Score: " + result + "%");
-
-    $("button").click(function() {
-      $("#result-showing").toggle();
-    })
-    $("form#query").show();
-    $("#result").show();
+    $("#showScore").show();
+    $("#showTest").hide();
   });
 });
